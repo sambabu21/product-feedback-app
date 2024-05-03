@@ -2,7 +2,7 @@ import Header from "../Header/Index";
 
 export default function Home(){
     return (
-        <div className="md:w-[80vw] mx-auto md:mt-24">
+        <div className="sm:w-[90vw] lg:w-[80vw] mx-auto sm:mt-12 lg:mt-24">
             <Header />
         </div>
     )
