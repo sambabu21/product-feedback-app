@@ -1,4 +1,4 @@
-export default const data={
+const data={
   "currentUser": {
     "image": "./assets/user-images/image-zena.jpg",
     "name": "Zena Kelley",
@@ -300,3 +300,5 @@ export default const data={
     }
   ]
 }
+
+export default data
