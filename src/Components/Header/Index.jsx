@@ -69,8 +69,8 @@ export default function Header(){
         </div>
          {/* mobile view navigation */}
 
-        {open ? <div className="h-screen w-screen relative">
-            <div className="h-full w-full bg-black bg-opacity-40 absolute inset-0"></div>
+        {open ? <div className="h-screen w-screen ">
+            <div className="h-full w-full bg-transparent bg-opacity-30 absolute inset-0 -z-10"></div>
             <div className="fixed top-[72px] right-[0] flex flex-col gap-8 w-[80vw] sm:hidden border h-full bg-[#F7F8FD] p-5">
             <div className="bg-white p-5 flex flex-wrap gap-3 rounded-[10px]">
                 {
